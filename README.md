@@ -10,7 +10,12 @@ https://localai.io/howtos/easy-setup-docker-cpu/
 
 https://localai.io/features/image-generation/
 
-
+For Example
+```bash
+curl http://localhost:8080/models/apply -H "Content-Type: application/json" -d '{
+  "url": "github:go-skynet/model-gallery/stablediffusion.yaml"
+}'
+```
 
 ## - 📖 Implementation details
 
